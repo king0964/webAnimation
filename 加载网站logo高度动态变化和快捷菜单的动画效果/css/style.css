@@ -1,0 +1,47 @@
+.header{background:url("../images/header-bg.jpg") center center no-repeat;height:310px;color:#fff;width:100%;padding:0 30px;box-sizing:border-box}
+.header-link{font-size:12px;padding:10px 0}
+.header-link .left{float:left}
+.header-link .right{float:right}
+.header-link .right a{color:#fff}
+.header-box{position:relative;margin-top:30px;text-align:center}
+.header-box .logo{position:absolute;width:80px;height:80px;margin-left:-40px}
+.header-box .title{font-size:44px;position:absolute;top:80px;margin-left:-85px}
+.header-box .header-search{position:absolute;top:160px;right:50%;background-color:#4aafe5;box-shadow:1px 2px 2px 0 #1d99db;border-radius:3px;margin-right:-190px}
+.header-box .header-search select,.header-box .header-search input{height:40px;border:0;vertical-align:middle;color:#fff;background:0;width:320px}
+.header-box .header-search select{background-color:#35a4df;width:60px;padding:0 5px}
+.header-search input::-webkit-input-placeholder{color:#fff}
+
+
+.rightBar {
+     width: 57px;
+     margin-top: 20px;
+}
+.rightBar .icon {
+     display: block;
+     width: 57px;
+     height: 57px;
+     background: url("../images/icon.png") no-repeat;
+     margin-bottom: 8px;
+
+}
+.rightBar .icon-1 {
+     background-position: 0 bottom;
+}
+.rightBar .icon-2 {
+     background-position: -61px bottom;
+}
+.rightBar .icon-3 {
+     background-position: -122px bottom;
+}
+.rightBar .icon-1:hover {
+     background-position: 0 0;
+     transition: all .3s ease-in-out;
+}
+.rightBar .icon-2:hover {
+     background-position: -61px 0;
+     transition: all .3s ease-in-out;
+}
+.rightBar .icon-3:hover {
+     background-position: -122px 0;
+     transition: all .3s ease-in-out;
+}
